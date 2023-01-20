@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link rel="icon" href="images/twitter.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="bootstarp.php" title="text/css">
     <title>log in to Twiter/Twiter</title>
 </head>
 <body>
-    <a href="{{Route('/home')}}"><button>Twiter</button></a>
+<a href="{{Route('home.page')}}"><button class="btn">home</button></a>
 </body>
 </html>

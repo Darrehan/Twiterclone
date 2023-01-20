@@ -19,6 +19,7 @@ class twitercontroller extends Controller
     public function logoutmethod()
     {
         return view('logout');
+    
         
     }
 }
