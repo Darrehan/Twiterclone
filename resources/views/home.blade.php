@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link rel="icon" href="images/twitter.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="bootstarp.php" title="text/css">
     <title>Home / Twiter</title>
 </head>
 <body>
