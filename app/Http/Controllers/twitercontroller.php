@@ -22,4 +22,16 @@ class twitercontroller extends Controller
     
         
     }
+    public function signupmethod()
+    {
+        return view('signup');
+    
+        
+    }
+    public function forgottenmethod()
+    {
+        return view('forgotten');
+    
+        
+    }
 }

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Home / Twiter</title>
+    <title>sign up for Twiter / Twiter</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,18 +11,34 @@
     <link rel="icon" href="images/twitter.ico" type="image/x-icon"/>
   </head>
   <body>
-
-
-
-
-
-
-
-
-
-
-
-
+  <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 p-0 pt-3">
+          <i class="fa fa-twitter"></i>
+          <h3 class="text-center pt-3">Join Twitter today</h3>
+          <form class="login-form" action="#">
+          <div class="mb-3 bg-color">
+              <label>username</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3 bg-color">
+              <label>Phone or email</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3 bg-color">
+              <label>Password</label>
+              <input type="password" class="form-control" required>
+            </div>
+            <button type="button" class="btn btn-custom btn-lg btn-block mt-3">sign in</button>
+            <div class="text-center pt-3 pb-3"> 
+              <a href="#" class="">Sign up for Twitter</a>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
