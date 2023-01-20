@@ -26,7 +26,7 @@
               <label>Password</label>
               <input type="password" class="form-control" required>
             </div>
-            <button type="button" class="btn btn-custom btn-lg btn-block mt-3">Log in</button>
+            <a href="{{Route('home.page')}}"> <button type="button" class="btn btn-custom btn-lg btn-block mt-3">Log in</button></a>
             <div class="text-center pt-3 pb-3">
               <a href="{{Route('forgotten.page')}}" class="">Forgotten password?</a> . 
               <a href="{{Route('signup.page')}}" class="">Sign up for Twitter</a>
@@ -36,19 +36,6 @@
         <div class="col-md-3"></div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

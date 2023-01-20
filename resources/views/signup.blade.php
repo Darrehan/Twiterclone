@@ -33,8 +33,15 @@
             <button type="button" class="btn btn-custom btn-lg btn-block mt-3">sign in</button>
             <div class="text-center pt-3 pb-3"> 
               <a href="#" class="">Sign up for Twitter</a>
-            </div>
           </form>
+            </div>
+            <div class="bottom-container">
+          <a href="https://github.com/Darrehan"><button class="btn ">git hub</button></a>
+          <a href="https://www.linkedin.com/in/dar-rehan-rasool-66a14222a/"><button class="btn" >linked in</button></a>
+          <a href="https://www.google.com/"><button class="btn " >google</button></a>
+          <a href="https://www.facebook.com/"><button class="btn">facebook</button></a>
+          <p class="copy-right">© Dar Rehan Rasool.</p>
+          </div>
         </div>
         <div class="col-md-3"></div>
       </div>
