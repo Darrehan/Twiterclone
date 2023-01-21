@@ -1,22 +1,23 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Bookmark Twiter / Twiter</title>
+    <title>More / Twiter</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link rel="icon" href="images/twitter.ico" type="image/x-icon"/>
-</head>
+    <!-- flaticons -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  </head>
   <body>
-  <div class="twitercontainer">
-        <section id="left__side" class="fixed__side">
+    <div class="twitercontainer">
+       <section id="left__side" class="fixed__side">
             <div class="left__side--top">
                 <div class="menu__icon logo">
-                    <a href="#">
+                    <a href="">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
@@ -57,13 +58,13 @@
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="profile.page">
+                    <a href="{{Route('profile.page')}}">
                         <i class="far fa-user"></i>
                         Profile
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="more.page">
+                    <a href="{{Route('more.page')}}">
                         <i class=""></i>
                         More
                       </a>
@@ -189,9 +190,7 @@
                 <button class=" btn show__btn">Show More</button>
             </div>
         </section> 
-    </div>  
-
-
+    </div> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

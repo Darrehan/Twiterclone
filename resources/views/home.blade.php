@@ -14,10 +14,10 @@
   </head>
   <body>
     <div class="twitercontainer">
-        <section id="left__side" class="fixed__side">
+       <section id="left__side" class="fixed__side">
             <div class="left__side--top">
                 <div class="menu__icon logo">
-                    <a href="#">
+                    <a href="">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
@@ -28,43 +28,43 @@
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="#">
+                    <a href="{{Route('explore.page')}}">
                         <i class="fas fa-hashtag"></i>
                         Explore
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="#">
+                    <a href="{{Route('notifications.page')}}">
                         <i class="far fa-bell"></i>
                         Notifications
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="#">
+                    <a href="{{Route('message.page')}}">
                     <i class="fi fi-sr-envelope"></i>
                         Message
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="#">
+                    <a href="{{Route('bookmark.page')}}">
                         <i class="far fa-bookmark"></i>
                         Bookmark
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="#">
+                    <a href="{{Route('list.page')}}">
                         <i class="far fa-list-alt"></i>
                         List
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="#">
+                    <a href="{{Route('profile.page')}}">
                         <i class="far fa-user"></i>
                         Profile
                     </a>
                 </div>
                 <div class="menu__icon">
-                    <a href="#">
+                    <a href="{{Route('more.page')}}">
                         <i class=""></i>
                         More
                       </a>
@@ -190,7 +190,7 @@
                 <button class=" btn show__btn">Show More</button>
             </div>
         </section> 
-    </div>
+    </div> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

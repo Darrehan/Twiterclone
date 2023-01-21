@@ -34,4 +34,46 @@ class twitercontroller extends Controller
     
         
     }
+    public function bookmarmethod()
+    {
+        return view('bookmark');
+    
+        
+    }
+    public function exploremethod()
+    {
+        return view('explore');
+    
+        
+    }
+    public function listmethod()
+    {
+        return view('list');
+    
+        
+    }
+    public function messagemethod()
+    {
+        return view('message');
+    
+        
+    }
+    public function notificationsmethod()
+    {
+        return view('notifications');
+    
+        
+    }
+    public function profilemethod()
+    {
+        return view('profile');
+    
+        
+    }
+    public function moremethod()
+    {
+        return view('more');
+    
+        
+    }
 }
