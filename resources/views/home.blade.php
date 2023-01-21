@@ -74,7 +74,7 @@
 
             <div class="menu_icon">
                 <div id="user">
-                    <img src="images/">
+                    <img src="images/profile.ico">
                     <div class="user__info">
                         <h4>dar rehan rasool</h4>
                         <small>@sycomusiclover</small>
