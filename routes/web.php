@@ -16,4 +16,5 @@ Route::get('/message','messagemethod')->name('message.page');//creating another 
 Route::get('/notifications','notificationsmethod')->name('notifications.page');//creating another name Rout for web pages interconections i'e links
 Route::get('/profile','profilemethod')->name('profile.page');//creating another name Rout for web pages interconections i'e links
 Route::get('/more','moremethod')->name('more.page');//creating another name Rout for web pages interconections i'e links
+Route::get('/editprofile','editprofilemethod')->name('editprofile.page');//creating another name Rout for web pages interconections i'e links
 });

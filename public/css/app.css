@@ -387,6 +387,88 @@ a{
   cursor: pointer;
 }
 /* end twiter home*/
-/* explore twiter home*/
+/* explore notifications home*/
 
-/* end explore twiter home*/
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: rgb(193, 23, 23);
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: rgb(182, 24, 24);
+  color: white;
+}
+
+/* end explore notifications home*/
+/* end edit profile home*/
+.form-control:focus {
+  box-shadow: none;
+  border-color: #BA68C8;
+}
+
+.profile-button {
+  background: #BA68C8;
+  box-shadow: none;
+  border: none;
+}
+
+.profile-button:hover {
+  background: #682773;
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none;
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none;
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer;
+}
+/* end edit profile home*/
+/* more ul home*/
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+/* end ul profile home*/
+/*  more bottom container home*/
+.bottom-container {
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 10px 0px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+
+}
+.footer-link{
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+/* end more bottom container home*/

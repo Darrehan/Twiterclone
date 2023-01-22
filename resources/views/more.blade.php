@@ -83,81 +83,24 @@
                 </div>
             </div>
         </section>
-
         <section id="center__area">
             <div class="header">
-                <h1>Home</h1>
-            </div>
-            <div class="status">
-                <div class="img"></div>
-                <form class="happening">
-                    <input type="text" placeholder="What's happening">
-                    <button class=" btn tweet__btn">
-                        Tweet
-                    </button>
-                </form>
+                <h1>More !</h1>
             </div>
             <div class="box__img">
                 <div class="img"></div>
                 <div class="tweet">
-                    <div class="user__info--tweet">
-                        <h4>dar rehan rasool</h4>
-                        <small>@sycomusiclover</small>
-                    </div>
-                    <p>The guitar is a fretted musical instrument that typically has six strings.
-                       It is usually held flat against the player's body and played by strumming or plucking the strings with the dominant hand,
-                       while simultaneously pressing selected strings against frets with the fingers of the opposite hand.
-                       A plectrum or individual finger picks may also be used to strike the strings. The sound of the guitar is projected either acoustically,
-                       by means of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.</p>
-                    <img src="images/rehan.ico" class="tweet__img">
+                    <div class="user__info--tweet"></div>
+                   <div class="bottom-container">
+              <a class="footer-link" href="https://www.linkedin.com/in/dar-rehan-rasool-66a14222a/"><button class="btn">Linkedin</button></a>
+              <a class="footer-link" href="https://twitter.com/CseRehan"><button class="btn">Twitter</button></a>
+              <a class="footer-link" href="https://github.com/Darrehan"><button class="btn">github</button></a>
+              <a class="footer-link" href="https://www.youtube.com/channel/UC82A6YxBt-ni7NoP46Cw3rA"><button class="btn">youtube</button></a>
+              <a class="footer-link" href="https://create.twitter.com/en/industries/news"><button class="btn">News</button></a>
+              <a class="footer-link" href="https://create.twitter.com/en/products/twitter-analytics"><button class="btn">About</button></a>
+              <p class="footer-link" class="copy-right">© Dar Rehan Rasool.</p>
+           </div>
                 </div>
-            </div>
-            <div class="box__img">
-                <div class="img"></div>
-                <div class="tweet">
-                    <div class="user__info--tweet">
-                        <h4>faisal rafiq</h4>
-                        <small>@sycomusiclover</small>
-                    </div>
-                    <p>Food is any substance consumed by an organism for nutritional support.
-                       Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates,
-                       fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy,
-                       maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms,
-                       often evolved to fill a specific ecological niche within specific geographical contexts.</p>
-                    <img src="images/food.ico" class="tweet__img">
-                </div>
-            </div>
-            <div class="box__img">
-                <div class="img"></div>
-                <div class="tweet">
-                    <div class="user__info--tweet">
-                        <h4>yasir pachi</h4>
-                        <small>@sycomusiclover</small>
-                    </div>
-                    <p>Wings of Fire (1999), is the autobiography of the Missile Man of India and President of India, Dr. A. P. J. Abdul Kalam. It was written by him and Arun Tiwari.[1]
-                       In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs.
-                       Kalam started his career, after graduating from Aerospace engineering at Madras Institute of Technology, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype.
-                       Later he moved to ISRO and helped establish the Vikram Sarabhai Space Centre and pioneered the first space launch-vehicle program. During the 1990s and early 2000,
-                       Kalam moved to the DRDO to lead the Indian nuclear weapons program,
-                       with particular successes in thermonuclear weapons development culminating in the operation Smiling Buddha and an ICBM Agni.</p>
-                    <img src="images/wings.ico" class="tweet__img">
-                </div>
-            </div>
-            <div class="box__img">
-                <div class="img"></div>
-                <div class="tweet">
-                    <div class="user__info--tweet">
-                        <h4>huzaif ahmed</h4>
-                        <small>@sycomusiclover</small>
-                    </div>
-                    <p>Radio is the technology of signaling and communicating using radio waves.
-                       [1][2][3] Radio waves are electromagnetic waves of frequency between 30 hertz (Hz) and 300 gigahertz (GHz).
-                       They are generated by an electronic device called a transmitter connected to an antenna which radiates the waves,
-                       and received by another antenna connected to a radio receiver. Radio is widely used in modern technology, in radio communication,
-                       radar, radio navigation, remote control, remote sensing, and other applications.</p>
-                    <img src="images/radio.ico" class="tweet__img">
-                </div>
-            </div>
         </section>
 
         <section id="right__side" class="fixed__side">

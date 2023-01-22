@@ -85,11 +85,8 @@
                 </div>
             </div>
         </section>
-
+    
         <section id="center__area">
-            <div class="header">
-                <h1>Home</h1>
-            </div>
             <div class="status">
                 <div class="img"></div>
                 <form class="happening">
@@ -99,6 +96,14 @@
                     </button>
                 </form>
             </div>
+            <div class="status">
+                <div class="rounded-circle mt-5"><img  src="images/profile.ico" width="90"></div>
+                   <a href="{{Route('editprofile.page')}}"><button class=" btn tweet__btn">Edit profile</button></a>
+                </form>
+            </div>
+            <div class="header">
+                <h1>Who to Follow !</h1>
+            </div>
             <div class="box__img">
                 <div class="img"></div>
                 <div class="tweet">
@@ -106,12 +111,9 @@
                         <h4>dar rehan rasool</h4>
                         <small>@sycomusiclover</small>
                     </div>
-                    <p>The guitar is a fretted musical instrument that typically has six strings.
-                       It is usually held flat against the player's body and played by strumming or plucking the strings with the dominant hand,
-                       while simultaneously pressing selected strings against frets with the fingers of the opposite hand.
-                       A plectrum or individual finger picks may also be used to strike the strings. The sound of the guitar is projected either acoustically,
-                       by means of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier.</p>
-                    <img src="images/rehan.ico" class="tweet__img">
+                    <p>
+                    Full stack webdeveloper,trekking lover,sycomusiclover,guitar lover.computer science enthusiatic..</p>
+                    <button class="btn">follow</button>
                 </div>
             </div>
             <div class="box__img">
@@ -121,12 +123,10 @@
                         <h4>faisal rafiq</h4>
                         <small>@sycomusiclover</small>
                     </div>
-                    <p>Food is any substance consumed by an organism for nutritional support.
-                       Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates,
-                       fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy,
-                       maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms,
-                       often evolved to fill a specific ecological niche within specific geographical contexts.</p>
-                    <img src="images/food.ico" class="tweet__img">
+                    <p>
+                    Data scientist,backend developer.computer science enthusiatic.
+                    </p>
+                    <button class="btn">follow</button>
                 </div>
             </div>
             <div class="box__img">
@@ -136,32 +136,100 @@
                         <h4>yasir pachi</h4>
                         <small>@sycomusiclover</small>
                     </div>
-                    <p>Wings of Fire (1999), is the autobiography of the Missile Man of India and President of India, Dr. A. P. J. Abdul Kalam. It was written by him and Arun Tiwari.[1]
-                       In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs.
-                       Kalam started his career, after graduating from Aerospace engineering at Madras Institute of Technology, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype.
-                       Later he moved to ISRO and helped establish the Vikram Sarabhai Space Centre and pioneered the first space launch-vehicle program. During the 1990s and early 2000,
-                       Kalam moved to the DRDO to lead the Indian nuclear weapons program,
-                       with particular successes in thermonuclear weapons development culminating in the operation Smiling Buddha and an ICBM Agni.</p>
-                    <img src="images/wings.ico" class="tweet__img">
+                    <p>
+                    Android app developer,.computer science enthusiatic..</p>
+                    <button class="btn">follow</button>
                 </div>
             </div>
             <div class="box__img">
-                <div class="img"></div>
+            <div class="img"></div>
                 <div class="tweet">
                     <div class="user__info--tweet">
                         <h4>huzaif ahmed</h4>
                         <small>@sycomusiclover</small>
                     </div>
-                    <p>Radio is the technology of signaling and communicating using radio waves.
-                       [1][2][3] Radio waves are electromagnetic waves of frequency between 30 hertz (Hz) and 300 gigahertz (GHz).
-                       They are generated by an electronic device called a transmitter connected to an antenna which radiates the waves,
-                       and received by another antenna connected to a radio receiver. Radio is widely used in modern technology, in radio communication,
-                       radar, radio navigation, remote control, remote sensing, and other applications.</p>
-                    <img src="images/radio.ico" class="tweet__img">
+                    <p>
+                    Android app developer.computer science enthusiatic..
+                    </p>
+                    <button class="btn">follow</button>
                 </div>
             </div>
         </section>
+         
 
+        <!-- <section id="center__area">
+            <div class="header">
+                <h2>Profile</h2>
+            </div>
+            <div class="status">
+                <div class="img">
+                <img src="images/profile.ico" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+                </div>
+                    <div>
+                        <a href="{{Route('editprofile.page')}}"><button class=" btn tweet__btn">edit profile</button></a>
+                    </div>
+                </form>
+            </div>
+            <div>
+            <h1><b>who to follow</b></h1>
+        </div>
+      <div class="box__img">
+                <div class="img">
+                <div class="tweet">
+                    <div class="user__info--tweet">
+                    <div class="img">
+                <img src="images/profile.ico" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="rehanpachi">
+                </div>
+                        <h4>rehan pachi</h4>
+                        <small>@sycomusiclover</small>
+                    </div>
+                    <p>
+                    full stack webdeveloper,trekking lover,sycomusiclover,guitar lover.computer science enthusiatic.
+                    </p>
+                </div>
+                <div class="box__img">
+                <div class="img">
+                <div class="tweet">
+                    <div class="user__info--tweet">
+                    <div class="img">
+                <img src="images/food.ico" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="rehanpachi">
+                </div>
+                        <h4>faisal pachi</h4>
+                        <small>@sycomusiclover</small>
+                    </div>
+                    <p>
+                     android app developer,trekking lover,sycomusiclover,guitar lover.computer science enthusiatic.
+                    </p>
+                </div>
+                <div class="box__img">
+                <div class="img">
+                <div class="tweet">
+                    <div class="user__info--tweet">
+                    <div class="img">
+                <img src="images/radio.ico" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="rehanpachi">
+                </div>
+                        <h4>yasir pachi</h4>
+                        <small>@sycomusiclover</small>
+                    </div>
+                    <p>
+                   android app developer.computer science enthusiatic.
+                    </p>
+                </div>
+                <div class="box__img">
+                <div class="img">
+                <div class="tweet">
+                    <div class="user__info--tweet">
+                    <div class="img">
+                <img src="images/wings.ico" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="rehanpachi">
+                </div>
+                        <h4>huzaif pachi</h4>
+                        <small>@sycomusiclover</small>
+                    </div>
+                    <p>
+                 android app developer.computer science enthusiatic.
+                    </p>
+                </div>
+        </section> -->
         <section id="right__side" class="fixed__side">
             <form>
                 <span class="icon"><i class="fas fa-search"></i></span>

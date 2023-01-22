@@ -34,7 +34,7 @@ class twitercontroller extends Controller
     
         
     }
-    public function bookmarmethod()
+    public function bookmarkmethod()
     {
         return view('bookmark');
     
@@ -73,6 +73,12 @@ class twitercontroller extends Controller
     public function moremethod()
     {
         return view('more');
+    
+        
+    }
+    public function editprofilemethod()
+    {
+        return view('editprofile');
     
         
     }

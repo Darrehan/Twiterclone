@@ -86,7 +86,7 @@
 
         <section id="center__area">
             <div class="header">
-                <h1>Home</h1>
+                <h1>Message !</h1>
             </div>
             <div class="status">
                 <div class="img"></div>
