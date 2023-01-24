@@ -26,7 +26,7 @@
               <label>email</label>
               <input type="email" class="form-control" required>
             </div>
-            <button type="button" class="btn btn-custom btn-lg btn-block mt-3"><i>submit</i></button>
+            <a href="{{Route('passwordreset.page')}}"><button type="button" class="btn btn-custom btn-lg btn-block mt-3"><i>submit</i></button></a>
           </form>
         </div>
         <div class="col-md-3"></div>

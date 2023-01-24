@@ -82,4 +82,10 @@ class twitercontroller extends Controller
     
         
     }
+    public function passwordresetmethod()
+    {
+        return view('passwordreset');
+    
+        
+    }
 }
